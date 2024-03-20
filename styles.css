@@ -683,7 +683,6 @@ button:active {
 }
 
 
-
 .svg-container {
   margin: 0;
   overflow: hidden;
@@ -763,6 +762,14 @@ svg {
   100% { transform: translateY(-50%); }
 }
 
-
-
-
+.svg-con, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(179, 173, 173);
+}
+.svg-con svg {
+  width: 100%;
+  height: 100%;
+}
